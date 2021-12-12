@@ -1,5 +1,4 @@
 inicio
-
     && Exibir de 1 a 10
     float E_count = 1
 

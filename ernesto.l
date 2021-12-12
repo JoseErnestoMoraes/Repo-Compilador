@@ -12,7 +12,6 @@ NUM {INT}+\.?{INT}*
 INPUT "scan"
 OUTPUT "print"
 VAR "E_"({CHAR}|{INT})*","?
-
 IF "se"
 ELSE "ise"
 WHILE "enquanto"
