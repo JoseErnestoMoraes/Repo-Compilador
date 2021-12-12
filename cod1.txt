@@ -21,5 +21,6 @@ inicio
 	float E_valor = ((E_x2-E_x1)^2)+((E_y2-E_y1)^2)
 
 	print(E_valor#2) 
+	
 
 fim

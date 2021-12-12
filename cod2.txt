@@ -24,6 +24,7 @@ inicio
     se (E_Terceiro > E_Maior) {
         E_Maior = E_Terceiro
     }
+    
 
     print(E_Maior)
 fim

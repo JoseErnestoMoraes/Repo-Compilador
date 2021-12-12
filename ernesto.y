@@ -12,6 +12,7 @@ typedef struct ast { /*Estrutura de um nó*/
 	struct ast *r; /*Direita*/
 }Ast; 
 
+
 typedef struct numval { /*Estrutura de um número*/
 	int nodetype;
 	double number;
