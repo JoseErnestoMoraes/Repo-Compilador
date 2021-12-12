@@ -1,0 +1,25 @@
+inicio
+	&&	Operações e atribuição:
+    &&	+, -, *, / = Operadores aritméticos
+    &&	() = precedência
+    &&	^ = exponenciação
+    &&	# = raiz quadrada
+    &&	'=' = atribuição
+
+	&& Distância Euclidiana
+
+	float E_x1 = 0
+	float E_x2 = 0
+	float E_y1 = 0
+	float E_y2 = 0
+
+	scan(E_x1)
+	scan(E_y1)
+	scan(E_x2)
+	scan(E_y2)
+	
+	float E_valor = ((E_x2-E_x1)^2)+((E_y2-E_y1)^2)
+
+	print(E_valor#2) 
+
+fim

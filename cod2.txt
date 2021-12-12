@@ -1,0 +1,29 @@
+inicio
+
+    &&	Operações Condicionais:
+    &&	if = se
+    &&	else = ise
+
+    && Qual o Maior de 3 Números
+    
+    float E_Maior = 0
+    float E_Primeiro = 0
+    float E_Segundo = 0
+    float E_Terceiro = 0
+    
+    scan(E_Primeiro)
+    scan(E_Segundo)
+    scan(E_Terceiro)
+
+    E_Maior = E_Primeiro
+    
+    se(E_Segundo > E_Maior) {
+        E_Maior = E_Segundo
+    } 
+
+    se (E_Terceiro > E_Maior) {
+        E_Maior = E_Terceiro
+    }
+
+    print(E_Maior)
+fim
